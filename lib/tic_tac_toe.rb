@@ -109,6 +109,7 @@ end
 def play
   puts "*** CLI Tic Tac Toe Game ***\n\n"
     display_board
+    puts ""
   while !over?
     turn
   end
