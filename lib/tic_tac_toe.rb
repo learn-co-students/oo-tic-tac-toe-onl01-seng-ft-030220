@@ -85,11 +85,6 @@ def winner
    return @board[combo[0]]
  end
 end
-# Given a winning @board, the #winner method should return the token,
-# "X" or "O", that has won the game.
-# winner - We will check to see, at every turn, if there is a winner.
-# If there is a winner, we'll congratulate them. If there is a tie, we will inform our players.
-
 
 def play
   until over?
